@@ -14,10 +14,10 @@ console.log('Test - should say "Hello World!"', hello());
 
 // 2. Function to return an personalized hello, for example 'Hello, Jo!'
 function helloName( name ) {
-  return 'Hello, John!';
+  return 'Hello, '+name+'!';
 }
 // Remember to call the function to test
-console.log('Test - should say "Hello, John!"', helloName());
+console.log('Test - should say "Hello, John!"', helloName('John'));
 
 // 3. Function to add two numbers together & return the result
 function addNumbers( firstNumber ) {
