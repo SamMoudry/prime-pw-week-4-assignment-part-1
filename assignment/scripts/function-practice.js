@@ -36,9 +36,9 @@ console.log('Test - answer should be 30', multiplyThree(5, 3, 2));
 //    or greater than zero, and false otherwise
 function isPositive( number ) {
   if ( number > 0 ){
-    return 'True';
+    return true;
   }
-    return 'False';
+    return false;
 }
 // Call the function to test each outcome (true & false)
 // Write a separate console.log statement for each outcome
@@ -56,15 +56,17 @@ function getLast( array ) {
   }
     return 'undefined';
 }
+console.log(getLast([1, 2, 3]));
+console.log(getLast([]));
 // 7. Function to find a value in an array. Return true if the
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find
 function find( value, array ){
   for (let i=0; i<array.length; i++)
     if (value === array[i]) {
-      return 'true';
+      return true;
     }
-    return 'false';
+    return false;
 }
 
 // ----------------------
