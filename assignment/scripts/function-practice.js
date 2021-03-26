@@ -22,15 +22,15 @@ console.log('Test - should say "Hello, John!"', helloName('John'));
 // 3. Function to add two numbers together & return the result
 function addNumbers( firstNumber ) {
   // return firstNumber + secondNumber;
-  return 1 + 2;
+  return firstNumber + 2;
 }
-console.log('Test - the answer should be 3', addNumbers());
+console.log('Test - the answer should be 3', addNumbers(1));
 
 // 4. Function to multiply three numbers & return the result
-function multiplyThree( ){
-return 5 * 3 * 2;
+function multiplyThree( x, y, z ){
+return x * y * z;
 }
-console.log('Test - answer should be 30', multiplyThree());
+console.log('Test - answer should be 30', multiplyThree(5, 3, 2));
 
 // 5. Function that will return true if a number is positive,
 //    or greater than zero, and false otherwise
