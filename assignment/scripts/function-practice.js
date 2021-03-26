@@ -68,7 +68,8 @@ function find( value, array ){
     }
     return false;
 }
-
+console.log(find(1, [2, 4, 1]));
+console.log(find('bananas', [1, 2, 3, 4]));
 // ----------------------
 // Stretch Goals
 // ----------------------
